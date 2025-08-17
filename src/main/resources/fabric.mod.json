@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arcaea-resurrection",
+	"version": "${version}",
+	"name": "ARCAEA RESURRECTION",
+	"description": "一缕和谐的光芒，正于那音乐纷争交错的失落世界中等候着你。",
+	"authors": [
+		"BushHuang"
+	],
+	"contact": {
+		"homepage": "https://arcaea.lowiro.com",
+		"sources": "https://github.com/BushHuang/Arcaea"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/arcaea-resurrection/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bushhuang.arcaea.ARCAEARESURRECTION"
+		],
+		"fabric-datagen": [
+			"bushhuang.arcaea.ARCAEARESURRECTIONDataGenerator"
+		],
+		"client": [
+			"bushhuang.arcaea.ARCAEARESURRECTIONClient"
+		]
+	},
+	"mixins": [
+		"arcaea-resurrection.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
