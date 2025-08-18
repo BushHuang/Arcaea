@@ -1,6 +1,7 @@
-package bushhuang.arcaea.items;
+package bushhuang.arcaea.item;
 
 import bushhuang.arcaea.ARCAEARESURRECTION;
+import bushhuang.arcaea.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,14 +17,17 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemGroup.arcaea_group"))
                     .icon(() -> new ItemStack(ModItems.ARCAEA_INGOT))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.NOTALIUM_ORE);
+                        entries.add(ModItems.NOTALIUM);
+                        entries.add(ModBlocks.NOTALIUM_BLOCK);
                         entries.add(ModItems.ARCAEA_INGOT);
                         entries.add(ModItems.ARCAEA_NUGGET);
-                        entries.add(ModItems.NOTALIUM);
+                        entries.add(ModBlocks.ARCAEA_BLOCK);
                         entries.add(ModItems.FRAGMENT);
                         entries.add(ModItems.ETHER_DROP);
                         entries.add(ModItems.CD_TEMPESTISSIMO);
                     }).build());
-    public static void registerGroups() {
+    public static void registerModGroups() {
 
     }
 }

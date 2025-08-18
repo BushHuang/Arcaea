@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "arcaea-resurrection:block/arcaea_block"
+  }
+}

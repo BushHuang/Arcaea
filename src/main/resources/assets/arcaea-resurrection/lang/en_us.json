@@ -5,5 +5,10 @@
   "item.arcaea-resurrection.notalium": "Notalium",
   "item.arcaea-resurrection.arcaea_nugget": "Arcaea Nugget",
   "item.arcaea-resurrection.cd_tempestissimo": "Music Disk",
+
+  "block.arcaea-resurrection.arcaea_block": "Arcaea Block",
+  "block.arcaea-resurrection.notalium_block": "Notalium Block",
+  "block.arcaea-resurrection.notalium_ore": "Notalium Ore",
+
   "itemGroup.arcaea_group": "Arcaea"
 }

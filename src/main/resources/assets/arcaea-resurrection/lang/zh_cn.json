@@ -5,5 +5,10 @@
   "item.arcaea-resurrection.notalium": "音矿",
   "item.arcaea-resurrection.arcaea_nugget": "阿卡伊粒",
   "item.arcaea-resurrection.cd_tempestissimo": "音乐唱片",
+
+  "block.arcaea-resurrection.arcaea_block": "阿卡伊块",
+  "block.arcaea-resurrection.notalium_block": "音矿块",
+  "block.arcaea-resurrection.notalium_ore": "音矿石",
+
   "itemGroup.arcaea_group": "韵律源点"
 }

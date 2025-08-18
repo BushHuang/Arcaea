@@ -1,4 +1,4 @@
-package bushhuang.arcaea.items;
+package bushhuang.arcaea.item;
 
 import bushhuang.arcaea.ARCAEARESURRECTION;
 import net.minecraft.item.Item;
@@ -18,7 +18,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(ARCAEARESURRECTION.MOD_ID, id), item);
     }
 
-    public static void registerItems() {
+    public static void registerModItems() {
 
     }
 }

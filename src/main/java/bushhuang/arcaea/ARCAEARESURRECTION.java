@@ -1,7 +1,8 @@
 package bushhuang.arcaea;
 
-import bushhuang.arcaea.items.ModItemGroups;
-import bushhuang.arcaea.items.ModItems;
+import bushhuang.arcaea.block.ModBlocks;
+import bushhuang.arcaea.item.ModItemGroups;
+import bushhuang.arcaea.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,11 +18,11 @@ public class ARCAEARESURRECTION implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-		ModItems.registerItems();
-		ModItemGroups.registerGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerModGroups();
+
 		LOGGER.info("Hello Arcaea World!");
 	}
 }
