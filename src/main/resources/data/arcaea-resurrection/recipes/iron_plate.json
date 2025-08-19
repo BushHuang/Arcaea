@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "iron_plate",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "arcaea-resurrection:iron_plate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "circuit_clock",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:clock"
+    },
+    "O": {
+      "item": "minecraft:redstone_comparator"
+    },
+    "I": {
+      "item": "minecraft:redstone_repeater"
+    }
+  },
+  "pattern": [
+    "#O#",
+    "IXI",
+    "#O#"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:circuit_clock"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "arcaea_diamond",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:ether_drop"
+    },
+    "X": {
+      "item": "arcaea-resurrection:arcaea_block"
+    },
+    "O": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "OXO",
+    "X#X",
+    "OXO"
+  ],
+  "result": {
+    "count": 4,
+    "item": "arcaea-resurrection:arcaea_diamond"
+  },
+  "show_notification": true
+}

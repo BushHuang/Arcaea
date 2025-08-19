@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pointer",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "arcaea-resurrection:iron_plate"
+    }
+  },
+  "pattern": [
+    " ##",
+    "X  "
+  ],
+  "result": {
+    "item": "arcaea-resurrection:pointer"
+  },
+  "show_notification": true
+}

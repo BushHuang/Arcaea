@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cd_empty",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:rubber"
+    },
+    "X": {
+      "item": "arcaea-resurrection:notalium"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:cd_empty"
+  },
+  "show_notification": true
+}

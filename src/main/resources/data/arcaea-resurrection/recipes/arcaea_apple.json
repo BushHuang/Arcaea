@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "arcaea_apple",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:arcaea_ingot"
+    },
+    "X": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:arcaea_apple"
+  },
+  "show_notification": true
+}

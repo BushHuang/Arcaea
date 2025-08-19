@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "notalium",
+  "ingredients": [
+    {
+      "item": "arcaea-resurrection:notalium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "arcaea-resurrection:notalium"
+  }
+}

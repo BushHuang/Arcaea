@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "arcaea_block",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:iron_plate"
+    },
+    "X": {
+      "item": "minecraft:slime_ball"
+    },
+    "O": {
+      "item": "minecraft:gold_nugget"
+    },
+    "I": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "OIO",
+    "#X#"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:circuit_board"
+  },
+  "show_notification": true
+}

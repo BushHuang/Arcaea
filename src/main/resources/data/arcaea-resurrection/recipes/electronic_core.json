@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "electronic_core",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:battery"
+    },
+    "X": {
+      "item": "arcaea-resurrection:heat_sink"
+    },
+    "O": {
+      "item": "minecraft:redstone_block"
+    },
+    "I": {
+      "item": "arcaea-resurrection:capacitor"
+    },
+    "A": {
+      "item": "arcaea-resurrection:circuit_board"
+    },
+    "B": {
+      "item": "arcaea-resurrection:esp32"
+    }
+  },
+  "pattern": [
+    "O#O",
+    "XBX",
+    "IAI"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:electronic_core"
+  },
+  "show_notification": true
+}

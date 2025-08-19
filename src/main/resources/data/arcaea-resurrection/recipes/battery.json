@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "battery",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:iron_plate"
+    },
+    "X": {
+      "item": "arcaea-resurrection:heat_sink"
+    },
+    "O": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "XOX"
+  ],
+  "result": {
+    "count": 8,
+    "item": "arcaea-resurrection:battery"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "capacitor",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:iron_plate"
+    },
+    "X": {
+      "item": "arcaea-resurrection:rubber"
+    },
+    "O": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "#O",
+    "XO",
+    "#O"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:capacitor"
+  },
+  "show_notification": true
+}

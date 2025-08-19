@@ -1,2 +1,2 @@
 # Arcaea:RESURRECTION
-Arcaea mod in 1.20.1Fabric. Bugjump. Guy,please don't punish me!
+Fan-made Arcaea mod in 1.20.1 Fabric. Bugjump. Guy, please don't punish me!

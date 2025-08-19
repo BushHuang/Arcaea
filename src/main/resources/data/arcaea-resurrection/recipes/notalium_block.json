@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "notalium_block",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:notalium"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:notalium_block"
+  },
+  "show_notification": true
+}

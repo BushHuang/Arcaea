@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "arcaea_ingot",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:arcaea_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:arcaea_ingot"
+  },
+  "show_notification": true
+}

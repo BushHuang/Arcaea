@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "esp32",
+  "key": {
+    "#": {
+      "item": "minecraft:stone_button"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "item": "minecraft:redstone_block"
+    },
+    "I": {
+      "item": "arcaea-resurrection:circuit_clock"
+    },
+    "A": {
+      "item": "arcaea-resurrection:iron_plate"
+    }
+  },
+  "pattern": [
+    "#XO",
+    "AIA",
+    "A A"
+  ],
+  "result": {
+    "item": "arcaea-resurrection:esp32"
+  },
+  "show_notification": true
+}

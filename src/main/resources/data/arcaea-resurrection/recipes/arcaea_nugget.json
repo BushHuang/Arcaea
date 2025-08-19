@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "arcaea_nugget",
+  "ingredients": [
+    {
+      "item": "arcaea-resurrection:arcaea_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "arcaea-resurrection:arcaea_nugget"
+  }
+}

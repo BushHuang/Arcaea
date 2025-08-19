@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ether_drop",
+  "key": {
+    "#": {
+      "item": "arcaea-resurrection:fragment"
+    },
+    "X": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "arcaea-resurrection:ether_drop"
+  },
+  "show_notification": true
+}
